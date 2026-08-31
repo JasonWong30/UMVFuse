@@ -22,3 +22,12 @@ torchrun --nproc_per_node=2 main_fusepro.py    --checkpoint /path/to/pretrained_
 python test_fuse.py   --checkpoint /path/to/fusion_checkpoint.pth   --dataset_config_path options/fusion.yml   --save_images --fuse_vi_y_channel
 ```
 
+## 🙌 UMVFuse
+
+### Qualitative comparison of different methods in scenarios with abrupt changes in local content.
+
+ <img src="asset/局部场景突变.jpg" width="70%" align=center /> 
+
+### Visualization of inter-frame difference maps of the fused results produced by different methods in scenarios with large-scale and non-uniform motion.
+
+ <img src="asset/局部场景突变.jpg" width="70%" align=center /> 
