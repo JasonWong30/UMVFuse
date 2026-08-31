@@ -8,3 +8,17 @@ The test sequence of M3FD is available in [this link](https://pan.baidu.com/s/1i
 
 The Polarization dataset is available in [this link](http://www.ok.sc.e.titech.ac.jp/res/PolarDem/index.html) 
 
+## Training
+
+The Fusion Stage
+
+```bash
+torchrun --nproc_per_node=2 main_fusepro.py    --checkpoint /path/to/pretrained_encoder.pth   --dataset_config_path options/fusion.yml
+```
+
+## Inference
+
+```bash
+python test_fuse.py   --checkpoint /path/to/fusion_checkpoint.pth   --dataset_config_path options/fusion.yml   --save_images --fuse_vi_y_channel
+```
+
