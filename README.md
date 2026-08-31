@@ -1,6 +1,8 @@
 # UMVFuse
 Toward Unified Multi-modal Image and Video Fusion via Dual-Teacher Prior Distillation
 
+Some parts of the code are still being organized and refined, and the corresponding paper has not yet been officially published. Therefore, the complete implementation, documentation, and related materials will be released progressively rather than all at once. This repository will continue to be updated and improved as the publication process moves forward.
+
 # Data Acquisition
 The BraST2020 sequence dataset is available in [this link](https://www.med.upenn.edu/cbica/brats2020/data.html) 
 
