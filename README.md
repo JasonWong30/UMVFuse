@@ -30,4 +30,4 @@ python test_fuse.py   --checkpoint /path/to/fusion_checkpoint.pth   --dataset_co
 
 ### Visualization of inter-frame difference maps of the fused results produced by different methods in scenarios with large-scale and non-uniform motion.
 
- <img src="asset/局部场景突变.jpg" width="70%" align=center /> 
+ <img src="asset/Temporal_Vis.jpg" width="70%" align=center /> 
