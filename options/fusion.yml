@@ -1,0 +1,36 @@
+datasets:
+  train:
+    name: MS3V
+    type: VideoFusionDataset
+    phase: train
+    dataroot_gt_vi: data/train/visible
+    dataroot_gt_ir: data/train/infrared
+    meta_info_file_train: data/train/meta_info.txt
+    test_mode: False
+    io_backend:
+      type: disk
+
+    # Dataset parameters
+    num_frame: 6 
+    gt_size: 384   
+    interval_list: [1]
+    random_reverse: false
+
+    # Data loader
+    num_worker_per_gpu: 1
+    batch_size_per_gpu: 15
+    dataset_enlarge_ratio: 1
+
+  val:
+    name: MS3V
+    type: VideoFusionTestDataset
+    phase: val    
+    dataroot_gt_vi: data/val/visible
+    dataroot_gt_ir: data/val/infrared
+    cache_data: false
+    io_backend:
+      type: disk
+
+    # Validation dataset parameters
+    num_frame: 1
+    num_overlap: 0
