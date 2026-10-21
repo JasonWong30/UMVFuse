@@ -11,7 +11,7 @@ Some parts of the code are still being organized and refined. The complete imple
 
 | Resource | Status | Link |
 |----------|--------|------|
-| 📄 Paper | Early Access (IEEE TCSVT) | IEEE Xplore link to be added |
+| 📄 Paper | Early Access (IEEE TCSVT) | [IEEE Xplore](https://ieeexplore.ieee.org/document/11739704) |
 | 📊 Datasets | Released | See Dataset Release Status ↓ |
 | 🔑 Code | Staged Rollout | See Code and Model Release Status ↓ |
 | 💻 Performance | Staged Rollout | See Qualitative and Quantitative Release Status ↓ |
@@ -22,8 +22,8 @@ Major updates to the repository will be recorded here in reverse chronological o
 
 | Date | Update | Description |
 |------|--------|-------------|
-| 2026-10-21 | 📄 Paper | Updated the publication status to IEEE TCSVT Early Access. |
-| 2026-9-4 | 🔑 Code | Set up this repository and upload the source code, containing network models, training codes, test codes, datasets and other basic assets.|
+| 2026-10-21 |  📄 Paper  | Updated the publication status to IEEE TCSVT Early Access. |
+| 2026-9-4 |  🔑 Code  | Set up this repository and upload the source code, containing network models, training codes, test codes, datasets and other basic assets.|
 
 ## 📊 Dataset Release Status
 
