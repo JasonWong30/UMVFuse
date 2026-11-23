@@ -1,0 +1,16 @@
+datasets:
+  val:
+    name: MS3V
+    type: VideoFusionTestDataset
+    phase: val
+    dataroot_gt_vi: papertest_data_HDO/vi
+    dataroot_gt_ir: papertest_data_HDO/ir
+    test_mode: true
+    cache_data: false
+    io_backend:
+      type: disk
+    num_frame: 1
+    num_overlap: 0
+    padding: reflection
+    num_worker_per_gpu: 1
+    batch_size_per_gpu: 1
