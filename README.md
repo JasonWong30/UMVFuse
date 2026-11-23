@@ -26,6 +26,9 @@ Major updates to the repository will be recorded here in reverse chronological o
 | 2026&#8209;10&#8209;21  |  Paper  | Updated the publication status to IEEE TCSVT Early Access. |
 |  2026&#8209;09&#8209;04 |  Code  | Set up this repository and upload the source code, containing network models, training codes, test codes, datasets and other basic assets.|
 
+## 📝 TODO
+- [ ] Some training code is still being organized and will be released in future repository updates.
+
 ## 📊 Dataset Release Status
 
 The BraTS2020 sequence dataset is available at [this link](https://www.med.upenn.edu/cbica/brats2020/data.html).
