@@ -22,7 +22,8 @@ Major updates to the repository will be recorded here in reverse chronological o
 
 | Date | Update | Description |
 |------|--------|-------------|
-| 2026&#8209;11&#8209;23 | Code & Weights | Refined the initially released source code and uploaded the pretrained model weights. |
+| 2026&#8209;11&#8209;23 | Code & Weights | Refined the initially released source code and uploaded the pretrained model weights [this link](通过网盘分享的文件：VideoFusionNet.pth
+链接: https://pan.baidu.com/s/18Q6pjxMe2EtT1wiQneBjpg?pwd=ar31 提取码: ar31). |
 | 2026&#8209;10&#8209;21  |  Paper  | Updated the publication status to IEEE TCSVT Early Access. |
 |  2026&#8209;09&#8209;04 |  Code  | Set up this repository and upload the source code, containing network models, training codes, test codes, datasets and other basic assets.|
 
